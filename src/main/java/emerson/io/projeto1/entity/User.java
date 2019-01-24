@@ -1,4 +1,4 @@
-package emerson.io.projeto1.entity;
+package emerson.io.projeto1.Entity;
 
 import java.util.Set;
 
@@ -17,6 +17,16 @@ public class User {
 	@ManyToMany
 	private Set<Role> roles;
 	
+	public User() {
+		
+	}
+	
+	public User(String name, String email) {
+		super();
+		this.name = name;
+		this.email = email;
+	}
+
 	public Set<Role> getRoles() {
 		return roles;
 	}

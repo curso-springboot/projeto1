@@ -1,4 +1,4 @@
-package emerson.io.projeto1.entity;
+package emerson.io.projeto1.Entity;
 
 import javax.persistence.*;
 
